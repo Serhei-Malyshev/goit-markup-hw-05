@@ -384,11 +384,18 @@
     <!-- modal-start -->
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-close-btn" type="button">
-          <svg class="modal-close-icon" width="8" height="8">
+        <button class="modal__close-btn" type="button">
+          <svg class="modal__close-icon" width="8" height="8">
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
         </button>
+        <p class="modal__title">Leave your contacts and we will call you back</p>
+        <form class="modal__form">
+          <input class="modal__input" type="text" name="user-name" />
+          <input class="modal__input" type="text" name="user-phone" />
+          <input class="modal__input" type="text" name="user-email" />
+          <button type="submit">Send</button>
+        </form>
       </div>
     </div>
     <!-- modal-end -->
