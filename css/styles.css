@@ -783,6 +783,10 @@ label {
   text-decoration-line: underline;
 }
 
+.modal__checkbox-change {
+  display: inline-flex;
+}
+
 .modal__checkbox-input-style + .modal__checkbox-label-style > .modal__checkbox-change {
   display: inline-flex;
   justify-content: center;
