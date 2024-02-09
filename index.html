@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Malyshev S. goit-markup-hw-05</title>
   </head>
+
   <body>
     <!-- header-section -->
     <header class="header">
@@ -417,14 +418,24 @@
                 <use href="./images/icons.svg#form-email-icon"></use>
               </svg>
             </div>
-            <div class="modal__wrap-textarea">
-              <label class="modal__label" for="user-comment">Comment</label>
-              <textarea class="modal__textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
-            </div>
           </div>
+
+          <!-- modal__textarea -->
+
+          <div class="modal__wrap-textarea">
+            <label class="modal__label" for="user-comment">Comment</label>
+            <textarea class="modal__textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+          </div>
+
+          <!-- modal__checkbox -->
+
           <div class="modal__wrap-checkbox">
-            <input type="checkbox" name="policy" id="policy" value="true" />
-            <label for="policy">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
+            <input class="modal__checkbox-input-style visually-hidden" type="checkbox" name="policy" id="policy" value="true" />
+            <label class="modal__checkbox-label-style" for="policy">
+              <span class="modal__checkbox-change"
+                ><svg class="modal__checkbox-icon" width="10" height="8"><use href="./images/icons.svg#checkbox-icon"></use></svg></span
+              >I accept the terms and conditions of the <a class="modal__checkbox-link-style" href="#"> Privacy Policy</a></label
+            >
           </div>
           <button class="modal__button" type="submit">Send</button>
         </form>

@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #434455;
@@ -62,7 +62,13 @@ button {
 
 input {
   font-family: inherit;
+  color: currentColor;
   padding: 0;
+}
+
+label {
+  font-family: inherit;
+  color: currentColor;
 }
 
 .visually-hidden {
@@ -97,7 +103,7 @@ input {
 .header__navmenu-logo {
   margin-right: 76px;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
@@ -149,7 +155,7 @@ input {
 }
 
 .header__navmenu-link--active::after {
-  content: '';
+  content: "";
   position: absolute;
 
   bottom: -1px;
@@ -222,7 +228,7 @@ input {
   border-radius: 4px;
   padding: 16px 32px;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #fff;
   line-height: 1.5;
@@ -496,7 +502,7 @@ input {
   margin-bottom: 16px;
   display: inline-block;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -744,6 +750,48 @@ input {
   margin-bottom: 24px;
 }
 
+.modal__checkbox-label-style {
+  display: flex;
+  align-items: center;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 0.87;
+  letter-spacing: 0.03em;
+
+  color: #8e8f99;
+}
+
+.modal__checkbox-link-style {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.03em;
+
+  color: #4d5ae5;
+  text-decoration-line: underline;
+}
+
+.modal__checkbox-input-style + .modal__checkbox-label-style > .modal__checkbox-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+
+  fill: transparent;
+  border-radius: 2px;
+  background-color: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.modal__checkbox-input-style:checked + .modal__checkbox-label-style > .modal__checkbox-change {
+  background-color: #404bbf;
+  border: none;
+  fill: #fff;
+}
 /* modal-checkbox-end */
 
 /* modal-button-start */
@@ -755,7 +803,7 @@ input {
   min-width: 169px;
   padding: 16px 32px;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
