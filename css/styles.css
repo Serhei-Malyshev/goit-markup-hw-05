@@ -730,12 +730,25 @@ label {
   padding: 8px 16px;
   resize: none;
 
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  color: rgba(46, 47, 66, 0.4);
   outline: transparent;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__textarea:hover,
+.modal__textarea:focus {
+  border-color: #4d5ae5;
 }
 
 .modal__wrap-textarea {
@@ -756,8 +769,8 @@ label {
 
   font-size: 12px;
   font-weight: 400;
-  line-height: 0.87;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 
   color: #8e8f99;
 }
@@ -790,7 +803,7 @@ label {
 .modal__checkbox-input-style:checked + .modal__checkbox-label-style > .modal__checkbox-change {
   background-color: #404bbf;
   border: none;
-  fill: #fff;
+  fill: #f4f4fd;
 }
 /* modal-checkbox-end */
 
