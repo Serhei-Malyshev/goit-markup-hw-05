@@ -1,10 +1,10 @@
-# Educational project GOIT Homework 4
+# Educational project GOIT Homework 5
 
 <div align="center">
 	<img src="https://raw.githubusercontent.com/Serhei-Malyshev/goit-markup-hw-04/main/images/github-readme/goit-logo-596.png" width="596"/>
 </div>
 
-## Layout of mockup "Web Studio". Form elements.
+## Layout of mockup "Web Studio". Form elements. 
 
 ### live page
 
