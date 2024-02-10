@@ -587,6 +587,10 @@ label {
 
 /* footer-subscribe-start */
 
+.footer__wrap-subscribe {
+  width: 453px;
+}
+
 .footer__subscribe-definition {
   margin-bottom: 16px;
 
@@ -600,6 +604,7 @@ label {
 .footer__subscribe-form {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -612,6 +617,10 @@ label {
   border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
+}
+
+.footer__subscribe-input:focus {
+  outline: #ffffff;
 }
 
 .footer__subscribe-input::placeholder {
@@ -629,6 +638,7 @@ label {
   justify-content: center;
   gap: 16px;
 
+  min-width: 165px;
   padding: 8px 24px;
 
   font-size: 16px;
