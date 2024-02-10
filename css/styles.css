@@ -587,9 +587,6 @@ label {
 
 /* footer-subscribe-start */
 
-.footer__wrap-subscribe {
-}
-
 .footer__subscribe-definition {
   margin-bottom: 16px;
 
@@ -598,9 +595,6 @@ label {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-}
-
-.footer__wrap-subscribe-form {
 }
 
 .footer__subscribe-form {
