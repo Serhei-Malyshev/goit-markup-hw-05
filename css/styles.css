@@ -642,7 +642,6 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
 
   min-width: 165px;
   padding: 8px 24px;
@@ -669,6 +668,8 @@ label {
 }
 
 .footer__subscribe-telegram-icon {
+  margin-left: 16px;
+
   fill: #ffffff;
 }
 
